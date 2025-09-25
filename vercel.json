@@ -7,10 +7,5 @@
   ],
   "buildCommand": "cd frontend && npm run build",
   "outputDirectory": "frontend/dist/public",
-  "installCommand": "cd frontend && npm install",
-  "functions": {
-    "frontend/dist/public/api/**/*.js": {
-      "runtime": "nodejs18.x"
-    }
-  }
+  "installCommand": "cd frontend && npm install"
 }
